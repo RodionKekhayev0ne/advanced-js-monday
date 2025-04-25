@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",                      // Поддержка современных фич JS
+    "module": "commonjs",                    // Совместимость с Node.js
+    "rootDir": "src",                        // Исходный код находится в папке src
+    "outDir": "dist",                        // Скомпилированный код попадёт в папку dist
+    "strict": true,                          // Включает строгую типизацию
+    "esModuleInterop": true,                 // Позволяет импортировать commonjs-модули
+    "forceConsistentCasingInFileNames": true,// Проверка регистра в путях
+    "skipLibCheck": true                     // Пропуск проверки d.ts
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
